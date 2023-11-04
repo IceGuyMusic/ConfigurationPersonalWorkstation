@@ -23,6 +23,8 @@ source ~/.bashrc
 # 3. nvim (neovim) installieren
 sudo apt-get install neovim -y
 
+mv generate.vim $XDG_CONFIG_HOME/nvim/init.vim
+
 # 4. docker.io installieren
 sudo apt-get install docker.io -y
 
